@@ -1,0 +1,44 @@
+{
+  "name": "album-app",
+  "version": "1.0.0",
+  "description": "Albumien hallintajärjestelmä MongoDB:llä ja Mongoose:lla",
+  "main": "src/app.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "bson": "^6.10.3",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint .",
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Joonas Kuokkanen",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs"
+}
